@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css.css">
 </head>
 <body>
-        <img src="logo.png" alt="logo">
-        <h3>Кратко обо мне:</h3>
-        <h2>teremok610</h2>
+    <div class="block">
+        <img src="logo.png" alt='logo' class="logo">
+        <div class="info">
+            <h2>teremok610</h2>
+            <h4>Кратко обо мне:</h4>
+            <p>Настолько хороший ютубер, что когда Пьюдипай увидел мои ролики, подумал, что я его ребеночек. Ивангай считал меня девочкой, но до того, как научился считать. Не завет Дудь, потому что меня и так все знают. Бабушка кормит меня, как своего любимого гусенка. Сладенький, как варенье у пчел, но не такой опасный. Посмотрев на меня - ты уже прежним не будешь.</p>
+        </div>
+    </div>
+        <hr>
         <ol>
-            <li>Youtuber. My youtube channel: <a href="https://www.youtube.com/channel/UCdUgft2V9m0x89K_XSb_3iA" target="_blank">ctotynesesh</a>
+            <li>My youtube channel: <a href="https://www.youtube.com/channel/UCdUgft2V9m0x89K_XSb_3iA" target="_blank">ctotynesesh</a>
                 <hr>
-                <table border="1" >
+                <table class="table">
                     <thead>
                         <tr>
                                 <th>Название видео</th>
@@ -22,30 +29,45 @@
                         </tr>
                     </thead>
                     <tbody> 
-                        <tr align="center">
+                        <tr align="left">
                             <td><a href="https://youtu.be/Ug-ze7X3UK4" target="_blank">школьник испортил тик ток</a></td>
                             <td>cs go</td>
-                            <td>7:08</td>
+                            <td align="center">7:08</td>
+                        </tr>
+                        <tr align="left">
+                            <td><a href="https://youtu.be/f-JGj6FrQBI" target="_blank">ютубер троллит школьника в кс го</a></td>
+                            <td>cs go</td>
+                            <td align="center">10:48</td>
+                        </tr>
+                        <tr align="left">
+                            <td><a href="https://youtu.be/_7gj_G-c_eI" target="_blank">ВСТРЕТИЛ ЛЮБОВЬ В НЕКСТ РП</a></td>
+                            <td>next rp</td>
+                            <td align="center">9:51</td>
                         </tr>
                     </tbody>
                 </table>
                 <hr>
             </li> 
-            <li>Junior developer</li>
+            <li>My discord: <a href="https://discord.gg/ux2rbvzYCT" target="_blank">#чтотынесешь?</a></li>
         </ol>
         <hr>
-        <form action="/">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id='name' placeholder="Введите имя...">
-            <br>
-            <label for="email">Ваш email:</label>
-            <input type="email" id='email' placeholder="email">
-            <br>
-            <label for="text">Введите ваше сообщение:</label>
-            <br>
-            <textarea name="text" id="text" cols="30" rows="10"></textarea>
-            <br>
-            <input type="submit" value="Отправить!">
+        <form action="/" class="form">
+            <h3>Напишите мне что-нибудь хорошее:</h3>
+        <div class="form-name">
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id='name' placeholder="Введите имя...">
+            </div>
+           <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id='email' placeholder="email">
+           </div>
+        </div>
+           <div class="form-group">
+                <label for="text">Введите ваше сообщение:</label>
+                <textarea name="text" id="text" rows="5" placeholder="Я люблю тебя, Теремок!"></textarea>
+           </div>
+            <button type="submit" class="button-85">Отправить!</button>
         </form>
         <table>
         </table>
